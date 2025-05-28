@@ -1,3 +1,10 @@
+@media (max-width: 768px) {
+  .mobile_menu {
+    display: none;
+  }
+}
+
+
 :root {
     --primary: #1a1a1a;
     --secondary: #252525;

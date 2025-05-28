@@ -12,3 +12,11 @@ document.getElementById("segundoenvioemail").addEventListener("click", function(
     }, 1000);
 });
 
+
+//funcion para mostrar u ocultar el menu de navegacion movil
+const toggle = document.getElementById("menu_toggle");
+const menu = document.getElementById("mobile_menu");
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
