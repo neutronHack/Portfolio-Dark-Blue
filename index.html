@@ -1,0 +1,908 @@
+<!--Navegacion de escritorio-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jimmy</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+</head>
+<body>
+    
+<header>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+ <!-- Navegacion del escritorio -->
+
+            <div class="hidden md:flex items-center space-x-8 px-10 py-4 bg-gray-900">
+
+                <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse">Inicio</a>
+                <a href="#abnsition-colors" class="flex items-center space-x-3 rtl:space-x-reverse"></a>
+                <a href="#projects" class="nav-link text-gray-300 hover:text-white transition-colors">Proyectos</a>
+                <a href="#skills" class="nav-link text-gray-300 hover:text-white transition-colors">Habilidades</a>
+                <a href="#education" class="nav-link text-gray-300 hover:text-white transition-colors">Educación</a>
+                <a href="#certifications" class="nav-link text-gray-300 hover:text-white transition-colors">Certificaciones</a>
+
+            </div>
+
+            
+
+            <!-- Mobile Menu Button -->
+
+            <div class="md:hidden">
+
+                <button id="menu-toggle" class="text-gray-300 hover:text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+
+        
+
+        <!-- Mobile Navigation -->
+
+        <div id="mobile-menu" class="hidden fixed top-0 left-0 w-3/4 h-full bg-gray-800 z-50 p-6">
+
+            <div class="flex justify-end">
+                <button id="close-menu" class="text-gray-300 hover:text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+
+            </div>
+
+            
+
+    </nav>
+
+</header>
+
+
+
+<!-- Seccion de inicio -->
+
+<section id="home" class="section min-h-screen flex items-center">
+
+    <div class="container mx-auto px-6">
+
+        <div class="flex flex-col md:flex-row items-center">
+
+            <div class="md:w-1/2 mb-10 md:mb-0">
+
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">Hola, soy <span class="text-indigo-500 typing-text" id="name">Jimmy Cabalceta</span></h1>
+
+                <h2 class="text-2xl md:text-3xl text-gray-400 mb-6">Estudiante de Ingenieria Informática</h2>
+
+                <p class="text-lg text-gray-300 mb-8">Apasionado por la tecnología y la creación de soluciones digitales funcionales que resuelven problemas reales.</p>
+
+                <div class="flex space-x-4">
+
+                    <a href="#contact" class="btn-primary px-8 py-3 rounded-lg text-white font-medium">Contáctame</a>
+
+                    <a href="#projects" class="px-8 py-3 rounded-lg border border-indigo-500 text-indigo-500 font-medium hover:bg-indigo-500 hover:text-white transition-colors">Ver Proyectos</a>
+
+                </div>
+
+            </div>
+
+            <div class="md:w-1/2 flex justify-center">
+
+                <div class="relative w-64 h-64 md:w-80 md:h-80">
+
+                    <div class="absolute inset-0 rounded-full bg-indigo-500 opacity-25 animate-pulse"></div>
+
+                    <div class="absolute inset-1 rounded-full bg-gray-800 flex items-center justify-center overflow-hidden">
+
+                        <!-- Reemplazar con tu foto o mantener el avatar -->
+
+                        <img src="/img/JimmyPerfilCirculo.png" alt="JimmyPerfilCirculo">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- About Section -->
+
+<section id="about" class="section bg-gray-900">
+
+    <div class="container mx-auto px-6">
+
+        <h2 class="section-title text-3xl font-bold">Sobre Mí</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <div>
+
+                <p class="text-gray-300 mb-6">
+
+                    Soy un Ingeniero Informático con experiencia en desarrollo de software y pasión por crear soluciones tecnológicas innovadoras. Mi enfoque se centra en escribir código limpio y eficiente para resolver problemas complejos.
+
+                </p>
+
+                <p class="text-gray-300 mb-6">
+
+                    A lo largo de mi carrera, he trabajado en diversos proyectos que me han permitido desarrollar habilidades técnicas sólidas y una comprensión profunda de los principios de la ingeniería de software. Me especializo en desarrollo web y aplicaciones móviles, con un fuerte interés en la inteligencia artificial y el aprendizaje automático.
+
+                </p>
+
+                <p class="text-gray-300">
+
+                    Cuando no estoy programando, disfruto de [tus hobbies o intereses], lo que me ayuda a mantener un equilibrio y aportar perspectivas frescas a mi trabajo.
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-xl font-semibold mb-4 text-indigo-400">Información Personal</h3>
+
+                <ul class="space-y-4">
+
+                    <li class="flex items-center">
+
+                        <span class="text-indigo-500 mr-3"><i class="fas fa-user"></i></span>
+
+                        <div>
+
+                            <span class="text-gray-400">Nombre:</span>
+
+                            <span class="text-gray-300 ml-2">Tu Nombre Completo</span>
+
+                        </div>
+
+                    </li>
+
+                    <li class="flex items-center">
+
+                        <span class="text-indigo-500 mr-3"><i class="fas fa-envelope"></i></span>
+
+                        <div>
+
+                            <span class="text-gray-400">Email:</span>
+
+                            <span class="text-gray-300 ml-2">tuemail@ejemplo.com</span>
+
+                        </div>
+
+                    </li>
+
+                    <li class="flex items-center">
+
+                        <span class="text-indigo-500 mr-3"><i class="fas fa-map-marker-alt"></i></span>
+
+                        <div>
+
+                            <span class="text-gray-400">Ubicación:</span>
+
+                            <span class="text-gray-300 ml-2">Tu Ciudad, País</span>
+
+                        </div>
+
+                    </li>
+
+                    <li class="flex items-center">
+
+                        <span class="text-indigo-500 mr-3"><i class="fas fa-graduation-cap"></i></span>
+
+                        <div>
+
+                            <span class="text-gray-400">Título:</span>
+
+                            <span class="text-gray-300 ml-2">Ingeniero Informático</span>
+
+                        </div>
+
+                    </li>
+
+                    <li class="flex items-center">
+
+                        <span class="text-indigo-500 mr-3"><i class="fas fa-briefcase"></i></span>
+
+                        <div>
+
+                            <span class="text-gray-400">Experiencia:</span>
+
+                            <span class="text-gray-300 ml-2">X años</span>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="mt-8">
+
+                    <a href="#contact" id="btn-contactame"  class="btn-primary px-6 py-2 rounded-lg text-white font-medium inline-flex items-center">
+
+                        <i class="fas fa-paper-plane mr-2"></i> Contáctame
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <div class="container mx-auto px-6">
+        <h2 class="section-title text-3xl font-bold">Proyectos Destacados</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="project-card rounded-lg overflow-hidden">
+                <div class="bg-gray-700 flex items-center justify-center">
+                    <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+                        <source src="/assets/VideoCortoTeslaApp.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Aplicacion de venta de autos Tesla</h3>
+                    <p class="text-gray-400 mb-4">Aplicacion movil para la compra de autos Tesla, con pagos en linea y verificacion al correo.
+                                                    Incluye un sistema de autenticacion y registro de usuarios y una gestion administrativa</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-gray-700 text-xs text-indigo-400 px-3 py-1 rounded-full">C#</span>
+                        <span class="bg-gray-700 text-xs text-indigo-400 px-3 py-1 rounded-full">.NET</span>
+                        <span class="bg-gray-700 text-xs text-indigo-400 px-3 py-1 rounded-full">Firebase</span>
+                        <span class="bg-gray-700 text-xs text-indigo-400 px-3 py-1 rounded-full">Figma</span>
+                    </div>
+                    <div class="flex space-x-3">
+                        <a href="https://github.com/neutronHack/TeslaAppMovilFinal2.0" class="text-indigo-500 hover:text-indigo-400 flex items-center">
+                            <i class="fab fa-github mr-1"></i> Repositorio
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card rounded-lg overflow-hidden">
+                <div class="bg-gray-700 flex items-center justify-center">
+                    <img src="/assets/MyEducInicio.png" alt="CanvaInicio" class="max-w-full max-h-full object-contain shadow-md">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Diseño de interfaz de usuario para sitio web</h3>
+                    <p class="text-gray-400 mb-4">Diseño de una interfaz de usuario moderna y satisfactoria para la vista del usuario
+                                                  para un sitio web informativo sobre cursos en linea de distintas areas.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-gray-700 text-xs text-indigo-400 px-3 py-1 rounded-full">Canva</span>
+                    </div>
+                    <div class="flex space-x-3">
+                        <a href="https://ejemplowebsitemio.my.canva.site/myeduc" class="text-indigo-500 hover:text-indigo-400 flex items-center">
+                            <img src="/assets/canva-icon-logo-symbol-free-png.png" alt="canvaIcon"  width="60" class="w-8 h-8 mr-1">Canva</a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <!-- <div class="project-card rounded-lg overflow-hidden">
+                <div class="h-48 bg-gray-700 flex items-center justify-center">
+                    <svg class="w-20 h-20 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
+                    </svg>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Plataforma E-learning</h3>
+                    <p class="text-gray-400 mb-4">Sistema web para cursos online con gestión de contenidos, evaluaciones automáticas y seguimiento de progreso de estudiantes.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-gray-700 text-xs text-indigo-400 px-3 py-1 rounded-full">PHP</span>
+                        <span class="bg-gray-700 text-xs text-indigo-400 px-3 py-1 rounded-full">MySQL</span>
+                        <span class="bg-gray-700 text-xs text-indigo-400 px-3 py-1 rounded-full">Vue.js</span>
+                    </div>
+                    <div class="flex space-x-3">
+                        <a href="#" class="text-indigo-500 hover:text-indigo-400 flex items-center">
+                            <i class="fab fa-github mr-1"></i> Repositorio
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</section>
+
+<!-- Seccion de habilidades -->
+
+<section id="skills" class="section bg-gray-900">
+
+    <div class="container mx-auto px-6">
+
+        <h2 class="section-title text-3xl font-bold">Habilidades Técnicas</h2>
+
+        
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <!-- Porcentaje de lenguajes de programacion -->
+
+            <div>
+
+                <h3 class="text-xl font-semibold mb-6 text-indigo-400">Lenguajes de Programación</h3>
+
+                <div class="space-y-4">
+
+                    <div>
+
+                        <div class="flex justify-between mb-1">
+
+                            <span>C#</span>
+
+                            <span>80%</span>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div class="progress" style="width: 80%"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="flex justify-between mb-1">
+
+                            <span>Java</span>
+
+                            <span>85%</span>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div class="progress" style="width: 85%"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="flex justify-between mb-1">
+
+                            <span>JavaScript</span>
+
+                            <span>80%</span>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div class="progress" style="width: 80%"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="flex justify-between mb-1">
+
+                            <span>PHP</span>
+
+                            <span>75%</span>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div class="progress" style="width: 75%"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="flex justify-between mb-1">
+
+                            <span>SQL</span>
+
+                            <span>70%</span>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div class="progress" style="width: 85%"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+
+            <!-- Frameworks & Libraries -->
+
+            <div>
+
+                <h3 class="text-xl font-semibold mb-6 text-indigo-400">Frameworks y Librerías</h3>
+
+                <div class="space-y-4">
+
+                    <div>
+
+                        <div class="flex justify-between mb-1">
+
+                            <span>.NET</span>
+
+                            <span>90%</span>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div class="progress" style="width: 90%"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <!-- <div class="flex justify-between mb-1">
+
+                            <span>Laravel</span>
+
+                            <span>75%</span>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div class="progress" style="width: 75%"></div>
+
+                        </div> -->
+
+                    </div>
+
+                    <!-- <div>
+
+                        <div class="flex justify-between mb-1">
+
+                            <span>React</span>
+
+                            <span>80%</span>
+
+                        </div> -->
+
+                        <!-- <div class="progress-bar">
+
+                            <div class="progress" style="width: 80%"></div>
+
+                        </div> -->
+
+                    </div>
+
+                    <div>
+
+                        <div class="flex justify-between mb-1">
+
+                            <span>Bootstrap</span>
+
+                            <span>85%</span>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div class="progress" style="width: 85%"></div>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div class="flex justify-between mb-1 mt-4">
+
+                            <span>Tailwind CSS</span>
+
+                            <span>80%</span>
+
+                        </div>
+
+                        <div class="progress-bar">
+
+                            <div class="progress" style="width: 60%"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
+
+            <!-- Tools -->
+
+            <div>
+
+                <h3 class="text-xl font-semibold mb-6 text-indigo-400 ml-4">Herramientas</h3>
+
+                <div class="grid grid-cols-2 gap-4">
+
+                    <div class="skill-item flex items-center p-3 rounded-lg">
+
+                        <i class="fas fa-code-branch text-indigo-500 mr-3 "></i>
+
+                        <span>Git</span>
+
+                    </div>
+
+                    <div class="skill-item flex items-center p-3 rounded-lg">
+
+                        <i class="fas fa-terminal text-indigo-500 mr-3"></i>
+
+                        <span>Visual Studio</span>
+
+                    </div>
+
+                    <div class="skill-item flex items-center p-3 rounded-lg">
+
+                        <i class="fas fa-code text-indigo-500 mr-3"></i>
+
+                        <span>VS Code</span>
+
+                    </div>
+
+                    <!-- <div class="skill-item flex items-center p-3 rounded-lg">
+
+                        <i class="fas fa-database text-indigo-500 mr-3"></i>
+
+                        <span>XAMPP</span>
+
+                    </div> -->
+
+                    <div class="skill-item flex items-center p-3 rounded-lg">
+
+                        <i class="fas fa-paint-brush text-indigo-500 mr-3"></i>
+
+                        <span>Figma</span>
+
+                    </div>
+
+                    <!-- <div class="skill-item flex items-center p-3 rounded-lg">
+
+                        <i class="fas fa-server text-indigo-500 mr-3"></i>
+
+                        <span>Docker</span>
+
+                    </div> -->
+
+                </div>
+
+            </div>
+
+            
+
+            <!-- Databases & Others -->
+
+            <div>
+
+                <h3 class="text-xl font-semibold mb-6 text-indigo-400">Bases de Datos y Otros</h3>
+
+                <div class="grid grid-cols-1 gap-4">
+
+                    <div>
+
+                        <h4 class="font-medium mb-2">Bases de Datos</h4>
+
+                        <div class="flex flex-wrap gap-2">
+
+                            <span class="bg-gray-800 text-sm text-indigo-400 px-3 py-1 rounded-full">MySQL</span>
+
+                            <span class="bg-gray-800 text-sm text-indigo-400 px-3 py-1 rounded-full">SQL Server</span>
+
+                            <span class="bg-gray-800 text-sm text-indigo-400 px-3 py-1 rounded-full">Firebase</span>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <h4 class="font-medium mb-2">Metodologías</h4>
+
+                        <div class="flex flex-wrap gap-2">
+
+                            <span class="bg-gray-800 text-sm text-indigo-400 px-3 py-1 rounded-full">SCRUM</span>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <h4 class="font-medium mb-2">Otros Conocimientos</h4>
+
+                        <div class="flex flex-wrap gap-2">
+
+                            <span class="bg-gray-800 text-sm text-indigo-400 px-3 py-1 rounded-full">Diseño Responsive</span>
+
+                            <span class="bg-gray-800 text-sm text-indigo-400 px-3 py-1 rounded-full">UX/UI</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="education" class="section">
+    <div class="container mx-auto px-6">
+        <h2 class="section-title text-3xl font-bold">Educación</h2>
+        <div class="relative">
+            <!-- Timeline Line -->
+            <div class="absolute left-0 md:left-1/2 h-full w-0.5 bg-indigo-500 transform -translate-x-1/2"></div>
+            
+            <!-- Education Item 1 -->
+            <div class="relative mb-12">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-8 md:mb-0 md:pr-10 md:text-right">
+                        <div class="bg-gray-800 p-6 rounded-lg shadow-1g md:ml-6">
+                            <h3 class="text-xl font-bold mb-2">Ingeniería Informática</h3>
+                            <p class="text-indigo-400 mb-2">Universidad de Ejemplo</p>
+                            <p class="text-gray-400">2018 - 2022</p>
+                        </div>
+                    </div>
+                    <div class="absolute left-0 md:left-1/2 w-8 h-8 bg-indigo-500 rounded-full transform -translate-x-1/2 flex items-center justify-center">
+                        <i class="fas fa-graduation-cap text-white"></i>
+                    </div>
+                    <div class="md:w-1/2 md:pl-10">
+                        <p class="text-gray-300">
+                            Completé mi grado en Ingeniería Informática con especialización en Desarrollo de Software. Durante mis estudios, adquirí conocimientos sólidos en algoritmos, estructuras de datos, bases de datos, redes y desarrollo de aplicaciones.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Education Item 2 -->
+            <div class="relative mb-12">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-8 md:mb-0 md:pr-10 md:text-right order-1 md:order-1">
+                        <p class="text-gray-300">
+                            Realicé un máster especializado en Inteligencia Artificial y Aprendizaje Automático, donde profundicé en técnicas avanzadas de machine learning, procesamiento de lenguaje natural y visión por computador.
+                        </p>
+                    </div>
+                    <div class="absolute left-0 md:left-1/2 w-8 h-8 bg-indigo-500 rounded-full transform -translate-x-1/2 flex items-center justify-center order-2">
+                        <i class="fas fa-user-graduate text-white"></i>
+                    </div>
+                    <div class="md:w-1/2 md:pl-10 order-3 md:order-3">
+                        <div class="bg-gray-800 p-6 rounded-lg shadow-lg md:mr-6">
+                            <h3 class="text-xl font-bold mb-2">Máster en Inteligencia Artificial</h3>
+                            <p class="text-indigo-400 mb-2">Universidad Tecnológica</p>
+                            <p class="text-gray-400">2022 - 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Education Item 3 -->
+            <div class="relative">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-8 md:mb-0 md:pr-10 md:text-right">
+                        <div class="bg-gray-800 p-6 rounded-lg shadow-lg md:ml-6">
+                            <h3 class="text-xl font-bold mb-2">Especialización en Desarrollo Web</h3>
+                            <p class="text-indigo-400 mb-2">Instituto Tecnológico</p>
+                            <p class="text-gray-400">2017 - 2018</p>
+                        </div>
+                    </div>
+                    <div class="absolute left-0 md:left-1/2 w-8 h-8 bg-indigo-500 rounded-full transform -translate-x-1/2 flex items-center justify-center">
+                        <i class="fas fa-certificate text-white"></i>
+                    </div>
+                    <div class="md:w-1/2 md:pl-10">
+                        <p class="text-gray-300">
+                            Curso especializado en tecnologías web modernas, incluyendo HTML5, CSS3, JavaScript avanzado, y frameworks como React y Angular. Aprendí a desarrollar aplicaciones web responsivas y accesibles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="certifications" class="section bg-gray-900">
+    <div class="container mx-auto px-6">
+        <h2 class="section-title text-3xl font-bold">Certificaciones</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2.5 ">
+            <!-- Certification 1 -->
+            <div class="certificate-card rounded-lg overflow-hidden" >
+                <div class="bg-gray-800 flex items-center justify-center">
+                    <img src="/assets/cerficacionLinkedinXms.jpg" alt="CertificadoLinkedinXMicrosoft" class="max-w-full max-h-full object-contain shadow-md">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-lg font-bold mb-2">Microsoft Certified: Azure Developer Associate</h3>
+                    <p class="text-gray-400 mb-4">Certificación que valida habilidades para desarrollar soluciones en la nube de Microsoft Azure.</p>
+                    <a href="https://www.linkedin.com/learning/certificates/2988afb5f14d2eaeb058fdc0f8b5315aac160d47de26dee870bf5971634bd834" class="text-indigo-500 hover:text-indigo-400 flex items-center">
+                        <i class="fas fa-external-link-alt mr-1"></i> Ver Certificado
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Certification 2 -->
+            <div class="certificate-card rounded-lg overflow-hidden">
+                <div class="h-40 bg-gray-800 flex items-center justify-center p-4">
+                    <svg class="w-16 h-16 text-indigo-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-lg font-bold mb-2">AWS Certified Developer - Associate</h3>
+                    <p class="text-gray-400 mb-4">Certificación que demuestra conocimientos en desarrollo y mantenimiento de aplicaciones en AWS.</p>
+                    <a href="#" class="text-indigo-500 hover:text-indigo-400 flex items-center">
+                        <i class="fas fa-external-link-alt mr-1"></i> Ver Certificado
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Certification 3 -->
+            <div class="certificate-card rounded-lg overflow-hidden">
+                <div class="h-40 bg-gray-800 flex items-center justify-center p-4">
+                    <svg class="w-16 h-16 text-indigo-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-lg font-bold mb-2">Oracle Certified Professional, Java SE Programmer</h3>
+                    <p class="text-gray-400 mb-4">Certificación que valida conocimientos avanzados en programación Java SE.</p>
+                    <a href="#" class="text-indigo-500 hover:text-indigo-400 flex items-center">
+                        <i class="fas fa-external-link-alt mr-1"></i> Ver Certificado
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 
+<section id="contact" class="section">
+    <div class="container mx-auto px-6">
+        <h2 class="section-title text-3xl font-bold">Contacto</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div>
+                <p class="text-gray-300 mb-6">
+                    ¿Interesado en trabajar juntos o tienes alguna pregunta? No dudes en contactarme a través de cualquiera de estos medios.
+                </p>
+                <div class="space-y-6">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center mr-4">
+                            <i class="fas fa-envelope text-indigo-500 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold">Email</h3>
+                            <a href="mailto:tuemail@ejemplo.com" class="text-indigo-400 hover:text-indigo-300">tuemail@ejemplo.com</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center mr-4">
+                            <i class="fab fa-linkedin-in text-indigo-500 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold">LinkedIn</h3>
+                            <a href="https://linkedin.com/in/tu-perfil" target="_blank" class="text-indigo-400 hover:text-indigo-300">linkedin.com/in/tu-perfil</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center mr-4">
+                            <i class="fab fa-github text-indigo-500 text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold">GitHub</h3>
+                            <a href="https://github.com/tu-usuario" target="_blank" class="text-indigo-400 hover:text-indigo-300">github.com/tu-usuario</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <form id="contact-form" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-300 mb-1">Nombre</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-white" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-300 mb-1">Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-white" required>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-300 mb-1">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-white" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn-primary w-full py-3 rounded-lg text-white font-medium flex items-center justify-center">
+                            <i class="fas fa-paper-plane mr-2"></i> Enviar Mensaje
+                        </button>
+                    </div>
+                    <p class="text-sm text-gray-400 text-center mt-4">Este es un formulario de demostración. Para implementar la funcionalidad completa, necesitarías un backend.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+<footer class="bg-gray-900 py-8">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0">
+                <a href="#home" class="flex items-center">
+                    <span class="text-indigo-500">&lt;</span>
+                    <span class="mx-1 text-white">Jimmy Cabalceta Alpizar</span>
+                    <span class="text-indigo-500">/&gt;</span>
+                </a>
+            </div>
+            <div class="flex space-x-6">
+                <a href="mailto:jimmycabalz.a.2011@gmail.com" id="segundoenvioemail" class="social-icon text-gray-400 hover:text-white">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="linkedin.com/in/jimmy-cabalceta-alpizar-7ba2b9251" target="_blank" class="social-icon text-gray-400 hover:text-white">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/neutronHack" target="_blank" class="social-icon text-gray-400 hover:text-white">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class="text-center mt-6">
+            <p class="text-gray-400 text-sm">&copy; <span id="current-year"></span> Jimmy Cabalceta Alpizar. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Scroll to Top Button -->
+<div class="scroll-top" id="scroll-top">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
+
+
+
+
+    
+    
+<script src="/js/script.js"></script>
+
+</body>
+</html>
