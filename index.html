@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 
 
@@ -15,20 +16,18 @@
 <body>
     
 <header>
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 max-h-full max-w-full px-8 sm:px-6 lg:px8">
  <!-- Navegacion del escritorio -->
+        <div class="hidden sm:ml-6 sm:block">
+            <div class="flex space-x-4">
 
-            <div class="hidden md:flex items-center space-x-8 px-10 py-4 bg-gray-900">
-
-                <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse">Inicio</a>
-                <a href="#abnsition-colors" class="flex items-center space-x-3 rtl:space-x-reverse"></a>
-                <a href="#projects" class="nav-link text-gray-300 hover:text-white transition-colors">Proyectos</a>
-                <a href="#skills" class="nav-link text-gray-300 hover:text-white transition-colors">Habilidades</a>
-                <a href="#education" class="nav-link text-gray-300 hover:text-white transition-colors">Educación</a>
-                <a href="#certifications" class="nav-link text-gray-300 hover:text-white transition-colors">Certificaciones</a>
+                <a href="#projects" class=" rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Proyectos</a>
+                <a href="#skills" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Habilidades</a>
+                <a href="#education" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Educación</a>
+                <a href="#certifications" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Certificaciones</a>
 
             </div>
-
+        </div>
             
 
             <!-- Mobile Menu Button -->
@@ -85,9 +84,7 @@
 
                 <div class="flex space-x-4">
 
-                    <a href="#contact" class="btn-primary px-8 py-3 rounded-lg text-white font-medium">Contáctame</a>
-
-                    <a href="#projects" class="px-8 py-3 rounded-lg border border-indigo-500 text-indigo-500 font-medium hover:bg-indigo-500 hover:text-white transition-colors">Ver Proyectos</a>
+                    <a href="#projects" class="btn-primary px-8 py-3 rounded-lg text-white font-medium">Ver Proyectos</a>
 
                 </div>
 
@@ -165,7 +162,7 @@
 
                             <span class="text-gray-400">Nombre:</span>
 
-                            <span class="text-gray-300 ml-2">Tu Nombre Completo</span>
+                            <span class="text-gray-300 ml-2">Jimmy Cabalceta Alpizar</span>
 
                         </div>
 
@@ -179,7 +176,7 @@
 
                             <span class="text-gray-400">Email:</span>
 
-                            <span class="text-gray-300 ml-2">tuemail@ejemplo.com</span>
+                            <span class="text-gray-300 ml-2">jimmycabalz.a.2011@gmail.com</span>
 
                         </div>
 
@@ -193,7 +190,7 @@
 
                             <span class="text-gray-400">Ubicación:</span>
 
-                            <span class="text-gray-300 ml-2">Tu Ciudad, País</span>
+                            <span class="text-gray-300 ml-2">Costa Rica, San Jose</span>
 
                         </div>
 
@@ -213,7 +210,7 @@
 
                     </li>
 
-                    <li class="flex items-center">
+                    <!-- <li class="flex items-center">
 
                         <span class="text-indigo-500 mr-3"><i class="fas fa-briefcase"></i></span>
 
@@ -225,7 +222,7 @@
 
                         </div>
 
-                    </li>
+                    </li> -->
 
                 </ul>
 
@@ -240,6 +237,7 @@
                 </div>
 
             </div>
+
 
         </div>
 
@@ -331,7 +329,7 @@
 
     <div class="container mx-auto px-6">
 
-        <h2 class="section-title text-3xl font-bold">Habilidades Técnicas</h2>
+        <h2 class="section-title text-3xl font-bold mb-6">Habilidades Técnicas</h2>
 
         
 
@@ -341,7 +339,7 @@
 
             <div>
 
-                <h3 class="text-xl font-semibold mb-6 text-indigo-400">Lenguajes de Programación</h3>
+                <h3 class="text-xl font-semibold mb-6 text-indigo-400 flex justify-between items-center">Lenguajes de Programación</h3>
 
                 <div class="space-y-4">
 
@@ -363,7 +361,7 @@
 
                     </div>
 
-                    <div>
+                    <!-- <div>
 
                         <div class="flex justify-between mb-1">
 
@@ -379,11 +377,11 @@
 
                         </div>
 
-                    </div>
+                    </div> -->
 
                     <div>
 
-                        <div class="flex justify-between mb-1">
+                        <div class="flex justify-between mb-1 mt-4">
 
                             <span>JavaScript</span>
 
@@ -399,11 +397,11 @@
 
                     </div>
 
-                    <div>
+                     <div>
 
                         <div class="flex justify-between mb-1">
 
-                            <span>PHP</span>
+                            <span>HTML</span>
 
                             <span>75%</span>
 
@@ -413,13 +411,13 @@
 
                             <div class="progress" style="width: 75%"></div>
 
-                        </div>
+                        </div> 
 
                     </div>
 
                     <div>
 
-                        <div class="flex justify-between mb-1">
+                        <div class="flex justify-between mb-1 mt-4">
 
                             <span>SQL</span>
 
@@ -445,7 +443,7 @@
 
             <div>
 
-                <h3 class="text-xl font-semibold mb-6 text-indigo-400">Frameworks y Librerías</h3>
+                <h3 class="text-xl font-semibold mb-6 text-indigo-400 mt-8" >Frameworks y Librerías</h3>
 
                 <div class="space-y-4">
 
@@ -547,9 +545,9 @@
 
         
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
-
             <!-- Tools -->
+        <div class="min-h-[400px] flex items-center justify-center flex gap-36">
+
 
             <div>
 
@@ -581,13 +579,13 @@
 
                     </div>
 
-                    <!-- <div class="skill-item flex items-center p-3 rounded-lg">
+                    <div class="skill-item flex items-center p-3 rounded-lg">
 
-                        <i class="fas fa-database text-indigo-500 mr-3"></i>
+                        <i class="fas fa-paint-brush  text-indigo-500 mr-3"></i>
 
-                        <span>XAMPP</span>
+                        <span>Canva</span>
 
-                    </div> -->
+                    </div> 
 
                     <div class="skill-item flex items-center p-3 rounded-lg">
 
@@ -676,16 +674,16 @@
         <h2 class="section-title text-3xl font-bold">Educación</h2>
         <div class="relative">
             <!-- Timeline Line -->
-            <div class="absolute left-0 md:left-1/2 h-full w-0.5 bg-indigo-500 transform -translate-x-1/2"></div>
+            <div class="absolute left-0 md:left-1/2 h-full w-1 bg-indigo-500 transform -translate-x-2"></div>
             
             <!-- Education Item 1 -->
-            <div class="relative mb-12">
+            <div class="relative mb-2">
                 <div class="flex flex-col md:flex-row items-center">
                     <div class="md:w-1/2 mb-8 md:mb-0 md:pr-10 md:text-right">
                         <div class="bg-gray-800 p-6 rounded-lg shadow-1g md:ml-6">
                             <h3 class="text-xl font-bold mb-2">Ingeniería Informática</h3>
-                            <p class="text-indigo-400 mb-2">Universidad de Ejemplo</p>
-                            <p class="text-gray-400">2018 - 2022</p>
+                            <p class="text-indigo-400 mb-2">Universidad Latinoamericana de Ciencia y Tecnología</p>
+                            <p class="text-gray-400">Septiembre 2022 - Mayo 2026</p>
                         </div>
                     </div>
                     <div class="absolute left-0 md:left-1/2 w-8 h-8 bg-indigo-500 rounded-full transform -translate-x-1/2 flex items-center justify-center">
@@ -693,14 +691,14 @@
                     </div>
                     <div class="md:w-1/2 md:pl-10">
                         <p class="text-gray-300">
-                            Completé mi grado en Ingeniería Informática con especialización en Desarrollo de Software. Durante mis estudios, adquirí conocimientos sólidos en algoritmos, estructuras de datos, bases de datos, redes y desarrollo de aplicaciones.
+                            Actualmente estoy cursando mi bachillerato en Ingeniería Informática. Durante mis estudios, he adquirido conocimientos sólidos en algoritmos, estructuras de datos, bases de datos, redes y desarrollo y diseño de aplicaciones.
                         </p>
                     </div>
                 </div>
             </div>
             
             <!-- Education Item 2 -->
-            <div class="relative mb-12">
+            <!-- <div class="relative mb-12">
                 <div class="flex flex-col md:flex-row items-center">
                     <div class="md:w-1/2 mb-8 md:mb-0 md:pr-10 md:text-right order-1 md:order-1">
                         <p class="text-gray-300">
@@ -720,8 +718,8 @@
                 </div>
             </div>
             
-            <!-- Education Item 3 -->
-            <div class="relative">
+             Education Item 3 -->
+            <!-- <div class="relative">
                 <div class="flex flex-col md:flex-row items-center">
                     <div class="md:w-1/2 mb-8 md:mb-0 md:pr-10 md:text-right">
                         <div class="bg-gray-800 p-6 rounded-lg shadow-lg md:ml-6">
@@ -739,7 +737,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -762,7 +760,7 @@
                 </div>
             </div>
             
-            <!-- Certification 2 -->
+            <!-- Certification 2
             <div class="certificate-card rounded-lg overflow-hidden">
                 <div class="h-40 bg-gray-800 flex items-center justify-center p-4">
                     <svg class="w-16 h-16 text-indigo-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -778,7 +776,7 @@
                 </div>
             </div>
             
-            <!-- Certification 3 -->
+                Certification 3 
             <div class="certificate-card rounded-lg overflow-hidden">
                 <div class="h-40 bg-gray-800 flex items-center justify-center p-4">
                     <svg class="w-16 h-16 text-indigo-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -794,7 +792,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 <!-- 
 <section id="contact" class="section">
